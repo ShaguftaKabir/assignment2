@@ -91,3 +91,15 @@ label{
     font-family: kenia;
     color: white;
 }
+p{
+    color: bisque;
+}
+.btn{
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+}
+.btn:hover{
+    color: brown;
+    background-color: black;
+}
