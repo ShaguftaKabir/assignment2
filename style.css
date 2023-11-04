@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: black;
 }
 
 ul{
@@ -46,13 +47,16 @@ a{
 }
 .gridContainer{
     display: grid;
+    width: 500px;
+    height: 500px;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 40px;
+    column-gap: 40px;
 }
 .item{
-    width: 133px;
-    height: 133px;
+    width: 140px;
+    height: 140px;
     background-color: brown;    
 }
 h2{
